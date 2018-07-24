@@ -13,3 +13,5 @@ The app functionality is:
 
 The _Notes_ section utilizes a SQLite database to store the data.
   
+# Author
+Daniel Greer
