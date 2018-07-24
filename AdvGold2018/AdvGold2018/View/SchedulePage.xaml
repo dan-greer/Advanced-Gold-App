@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdvGold2018.SchedulePage"
+            Title="Schedule"
+            Padding="0,0,0,0">
+
+    <ContentPage Title="S" >
+        <ScrollView>
+            <Grid RowSpacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+                </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+                <Label Text="Time" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Activity" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Location" Grid.Row="0" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <BoxView BackgroundColor="Black" Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="1" HorizontalOptions="Fill" VerticalOptions="Start"/>
+                
+                <Label Text="2:00-3:05" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Registration" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="2" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="3:15-3:45" Grid.Row="3" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Orientation" Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Francis Hall Theatre" Grid.Row="3" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="3:45-4:45" Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Suitemate Challenge" Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Francis Hall" Grid.Row="4" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="4:55-5:40" Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dinner" Grid.Row="5" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dinning Hall" Grid.Row="5" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="5:50-7:05" Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Finding Your Why" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall Room 14" Grid.Row="6" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="7:15-8:10" Grid.Row="7" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Functioning Together as One" Grid.Row="7" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Room 14" Grid.Row="7" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:20-8:55" Grid.Row="8" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Council Meetings" Grid.Row="8" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Classrooms in Bernadine Hall" Grid.Row="8" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="9:05-9:50" Grid.Row="9" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Mentor Groups" Grid.Row="9" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Campus Grounds" Grid.Row="9" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:00-10:20" Grid.Row="10" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dorm Meeting" Grid.Row="10" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="10" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:20-10:35" Grid.Row="11" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Reflection" Grid.Row="11" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="11" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:35-11:00" Grid.Row="12" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Individual Room Time" Grid.Row="12" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="12" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:00" Grid.Row="13" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Lights Out" Grid.Row="13" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="13" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="M">
+        <ScrollView>
+            <Grid RowSpacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Time" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Activity" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Location" Grid.Row="0" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <BoxView BackgroundColor="Black" Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="1" HorizontalOptions="Fill" VerticalOptions="Start"/>
+
+                <Label Text="7:30-8:15" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Breakfast" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="2" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:25-8:45" Grid.Row="3" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Staff Morning Program" Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Quad" Grid.Row="3" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:55-9:55" Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Group 1: Finding Your Voice II &#10; Group 2: Conflict Resolution I &#10; Group 3: Innovative Leadership 1" Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Classrooms in Bernadine Hall" Grid.Row="4" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:00-11:00" Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Group 1: Innovative Leadership 1 &#10; Group 2: Finding Your Voice II &#10; Group 3: Conflict Resolution I" Grid.Row="5" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Classrooms in Bernadine Hall" Grid.Row="5" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:05-12:05" Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Group 1: Conflict Resolution I &#10; Group 2: Innovative Leadership I &#10; Group 3: Finding Your Voice II" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Classrooms in Bernadine Hall" Grid.Row="6" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="12:15-1:00" Grid.Row="7" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Lunch" Grid.Row="7" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="7" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="1:10-2:10" Grid.Row="8" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Council Meetings" Grid.Row="8" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Classrooms in Bernadine Hall" Grid.Row="8" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="2:30-3:30" Grid.Row="9" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Group 1: Ethics of Leadership I &#10; Group 2: Student Leadership Challenge &#10; Group 3: Leadership in the Cloud" Grid.Row="9" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Classrooms in Bernadine Hall" Grid.Row="9" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="3:35-4:35" Grid.Row="10" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Group 1: Leadership in the Cloud &#10; Group 2: Ethics of Leadership I &#10; Group 3: Student Leadership Challenge" Grid.Row="10" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Classrooms in Bernadine Hall" Grid.Row="10" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="4:40-5:40" Grid.Row="11" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Group 1: Student Leadership Challenge &#10; Group 2: Leadership in the Cloud &#10; Group 3: Ethics of Leadership 1" Grid.Row="11" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Anthony Hall" Grid.Row="11" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="5:50-6:35" Grid.Row="12" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dinner" Grid.Row="12" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="12" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="6:45-7:20" Grid.Row="13" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Committee Meetings" Grid.Row="13" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Classrooms in Bernadine Hall" Grid.Row="13" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="7:30-8:30" Grid.Row="14" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Council Meetings" Grid.Row="14" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Mentor Group Locations" Grid.Row="14" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:40-9:20" Grid.Row="15" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Mentor Groups" Grid.Row="15" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Campus Grounds" Grid.Row="15" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="9:30-11:00" Grid.Row="16" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Sword Dancing - Bring Water!" Grid.Row="16" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Mother House?" Grid.Row="16" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:10-11:25" Grid.Row="17" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Individual Room Time" Grid.Row="17" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="17" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:30" Grid.Row="18" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Lights Out" Grid.Row="18" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="18" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="T">
+        <ScrollView>
+            <Grid RowSpacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Time" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Activity" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Location" Grid.Row="0" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <BoxView BackgroundColor="Black" Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="1" HorizontalOptions="Fill" VerticalOptions="Start"/>
+
+                <Label Text="7:45-8:15" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Breakfast" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="2" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:20-8:30" Grid.Row="3" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Delegate Morning Program" Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Quad" Grid.Row="3" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="9:30-5:00" Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Black Rock" Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="5:00-5:50" Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Free Time" Grid.Row="5" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                
+
+                <Label Text="6:00-6:45" Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dinner" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="6" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="6:55-7:40" Grid.Row="7" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Structured Work/Personal Time" Grid.Row="7" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Campus Grounds" Grid.Row="7" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="7:45-8:10" Grid.Row="8" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Student Leadership Challenge" Grid.Row="8" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Bernadine Hall Room 14" Grid.Row="8" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:15-8:45" Grid.Row="9" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Committee Meetings" Grid.Row="9" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall" Grid.Row="9" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:55-9:40" Grid.Row="10" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Council Meetings" Grid.Row="10" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall" Grid.Row="10" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="9:50-10:30" Grid.Row="11" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Mentor Group" Grid.Row="11" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Campus Grounds" Grid.Row="11" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:40-10:55" Grid.Row="12" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Reflection" Grid.Row="12" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="12" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:55-11:15" Grid.Row="13" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Individual Room Time" Grid.Row="13" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="13" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:15" Grid.Row="14" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Lights Out" Grid.Row="14" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="14" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="W">
+        <ScrollView>
+            <Grid RowSpacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Time" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Activity" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Location" Grid.Row="0" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <BoxView BackgroundColor="Black" Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="1" HorizontalOptions="Fill" VerticalOptions="Start"/>
+
+                <Label Text="7:45-8:30" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Breakfast" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="2" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:40-9:15" Grid.Row="3" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Delegate Morning Program" Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Bernadine Hall Room 14" Grid.Row="3" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="9:15-9:50" Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Pictures" Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Quad" Grid.Row="4" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:00-11:00" Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Committee Meetings" Grid.Row="5" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall" Grid.Row="5" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:10-12:20" Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Council 1: Shirts for a Change &#10; Council 2: Structured Work Time" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Bernadine Hall" Grid.Row="6" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="12:30-1:15" Grid.Row="7" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Lunch" Grid.Row="7" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="7" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="1:20-2:30" Grid.Row="8" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Council 1: Structured Work Time &#10; Council 2: Shirts for a Change" Grid.Row="8" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Classrooms in Bernadine Hall" Grid.Row="8" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="2:40-3:40" Grid.Row="9" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Council Meetings" Grid.Row="9" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall" Grid.Row="9" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="3:50-5:05" Grid.Row="10" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Recreation Planned Activity" Grid.Row="10" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Campus Grounds" Grid.Row="10" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="5:15-6:00" Grid.Row="11" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dinner" Grid.Row="11" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="11" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="6:10-8:30" Grid.Row="12" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Activity" Grid.Row="12" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall" Grid.Row="12" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:40-9:30" Grid.Row="13" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Mentor Groups" Grid.Row="13" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Campus Grounds" Grid.Row="13" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="9:40-10:30" Grid.Row="14" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Ice Cream Party" Grid.Row="14" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Cafe Crusader" Grid.Row="14" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:30-10:45" Grid.Row="15" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Reflection" Grid.Row="15" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="15" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:45-11:00" Grid.Row="16" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Individual Room Time" Grid.Row="16" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="16" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:00" Grid.Row="17" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Lights Out" Grid.Row="17" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="17" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Th" >
+        <ScrollView>
+            <Grid RowSpacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Time" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Activity" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Location" Grid.Row="0" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <BoxView BackgroundColor="Black" Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="1" HorizontalOptions="Fill" VerticalOptions="Start"/>
+
+                <Label Text="7:30-8:15" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Breakfast" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="2" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:15-8:45" Grid.Row="3" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Work Time" Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall" Grid.Row="3" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:55-9:30" Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Delegate Morning Program/SLC" Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Bernadine Hall Room 14" Grid.Row="4" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="9:40-10:40" Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Stress Management" Grid.Row="5" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Francis Hall" Grid.Row="5" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:50-12:30" Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Making Your Presentation" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall/Student Union" Grid.Row="6" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+
+                <Label Text="12:40-1:25" Grid.Row="7" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Lunch" Grid.Row="7" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="7" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="1:35-2:35" Grid.Row="8" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Group 1: Conflict Resolution II &#10; Group 2: Innovative Leadership II &#10; Group 3: Ethics II" Grid.Row="8" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Bernadine Hall" Grid.Row="8" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="2:40-3:40" Grid.Row="9" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Group 1: Ethics II &#10; Group 2: Conflict Resolution II &#10; Group 3: Innovative Leadership II" Grid.Row="9" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Bernadine Hall" Grid.Row="9" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="3:45-4:45" Grid.Row="10" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Group 1: Innovative Leadership II &#10; Group 2: Ethics II &#10; Group 3: Conflict Resolution II" Grid.Row="10" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Bernadine Hall" Grid.Row="10" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="4:55-5:35" Grid.Row="11" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Committee Meetings" Grid.Row="11" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall" Grid.Row="11" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="5:40-6:20" Grid.Row="12" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dinner" Grid.Row="12" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="12" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="6:30-7:20" Grid.Row="13" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Mentor Groups" Grid.Row="13" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Campus Grounds" Grid.Row="13" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="7:30-8:10" Grid.Row="14" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Council Meetings" Grid.Row="14" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall" Grid.Row="14" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:20-8:40" Grid.Row="15" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Prep for Delegate Planned Activity" Grid.Row="15" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="TBD" Grid.Row="15" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:50-10:50" Grid.Row="16" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Delegate Planned Activity" Grid.Row="16" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Francis Hall" Grid.Row="16" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:00-11:15" Grid.Row="17" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Reflection" Grid.Row="17" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="17" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:15-11:30" Grid.Row="18" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Individual Room Time" Grid.Row="18" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="18" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:30" Grid.Row="19" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Lights Out" Grid.Row="19" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="19" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="F" >
+        <ScrollView>
+            <Grid RowSpacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Time" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Activity" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Location" Grid.Row="0" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <BoxView BackgroundColor="Black" Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="1" HorizontalOptions="Fill" VerticalOptions="Start"/>
+
+                <Label Text="7:30-8:15" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Breakfast" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="2" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:25-9:00" Grid.Row="3" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Delegate Morning Program/SLC" Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Bernadine Hall" Grid.Row="3" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="9:10-10:35" Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Blue, Red, and Green: Presentation Evaluations &#10; Pink, Yellow, and Purple: Followership" Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Bernadine Hall" Grid.Row="4" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:40-12:05" Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Blue, Red, and Green: Followership &#10; Pink, Yellow, and Purple: Presentation Evaluations" Grid.Row="5" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Bernadine Hall" Grid.Row="5" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="12:10-12:35" Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Four Diamonds Presentation" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall" Grid.Row="6" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="12:45-1:30" Grid.Row="7" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Lunch" Grid.Row="7" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="7" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="1:40-3:40" Grid.Row="8" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Service Activity" Grid.Row="8" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Room 14/Mother House" Grid.Row="8" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="3:50-4:35" Grid.Row="9" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Motivation" Grid.Row="9" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall" Grid.Row="9" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="4:40-5:40" Grid.Row="10" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Mentor Groups" Grid.Row="10" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Campus Grounds" Grid.Row="10" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="5:45-6:15" Grid.Row="11" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Committee Meetings" Grid.Row="11" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Bernadine Hall" Grid.Row="11" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="6:20-7:30" Grid.Row="12" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Free Time/Prep for Closing Dinner and Activity" Grid.Row="12" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Anthony Hall" Grid.Row="12" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="7:35-8:35" Grid.Row="13" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Closing Dinner" Grid.Row="13" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Dining Hall" Grid.Row="13" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:40-10:40" Grid.Row="14" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Closing Activity" Grid.Row="14" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Francis Hall" Grid.Row="14" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:45-11:00" Grid.Row="15" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Reflection" Grid.Row="15" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="15" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:00-11:15" Grid.Row="16" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Free Time in Anthony Hall" Grid.Row="16" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="16" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:15-11:30" Grid.Row="17" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Individual Room Time" Grid.Row="17" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="17" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:30" Grid.Row="18" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Lights Out" Grid.Row="18" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Anthony Hall" Grid.Row="18" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Sa" >
+        <ScrollView>
+            <Grid RowSpacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Time" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Activity" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <Label Text="Location" Grid.Row="0" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Medium"/>
+                <BoxView BackgroundColor="Black" Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="1" HorizontalOptions="Fill" VerticalOptions="Start"/>
+
+                <Label Text="8:00-8:45" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Breakfast with Mentor Groups" Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Dining Hall" Grid.Row="2" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="8:55-9:25" Grid.Row="3" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Morning Program" Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Quad" Grid.Row="3" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="9:35-10:00" Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Council 1: Camp Evaluation &#10; Council 2: Council Meeting/Clean up" Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Bernadine Hall" Grid.Row="4" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:10-10:35" Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Council 1: Council Meeting/Clean up &#10; Council 2: Camp Evaluation" Grid.Row="5" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Bernadine Hall" Grid.Row="5" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="10:45-11:20" Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Closing Program" Grid.Row="6" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Quad" Grid.Row="6" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="11:30-12:00" Grid.Row="7" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Clean Up and Room Inspections" Grid.Row="7" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Anthony Hall" Grid.Row="7" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+                <Label Text="12:00-1:00" Grid.Row="8" Grid.Column="0" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+                <Label Text="Check out and Departure" Grid.Row="8" Grid.Column="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Micro"/>
+                <Label Text="Anthony Hall" Grid.Row="8" Grid.Column="2" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Small"/>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>

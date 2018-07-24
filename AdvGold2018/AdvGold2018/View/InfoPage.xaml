@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdvGold2018.InfoPage"
+             Title="Information">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="Don't Forget Your Medical and Black Rock Forms!!!"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                   HorizontalOptions="CenterAndExpand"/>
+            
+            <Label Text="Q: When is the first day of camp?" 
+                   FontSize="Small"
+                   FontAttributes="Bold"/>
+            <Label Text="A: Sunday, July 15th"
+                   FontSize="Micro"/>
+
+            <Label Text="Q: When is registration on the 15th?" 
+                   FontSize="Small"
+                   FontAttributes="Bold"/>
+            <Label Text="A: Registration occurs between 2-3:00 PM.  Due to the limited time, we ask for parents and delegates to PLEASE be prompt.  Follow the PASC Advanced Gold Camp signs on campus."
+                   FontSize="Micro"/>
+
+            <Label Text="Q: When is pickup at the end of the week?" 
+                   FontSize="Small"
+                   FontAttributes="Bold"/>
+            <Label Text="A: Pickup is Saturday, July 21st at 11:30 AM."
+                   FontSize="Micro"/>
+
+            <Label Text="Q: Do I need to bring a certain color t-shirt?" 
+                   FontSize="Small"
+                   FontAttributes="Bold"/>
+            <Label Text="A: Nope! We will be challenging you not to look at the week as a competition but rather a collaboration so that by the end of the week, everyone comes out on top!"
+                   FontSize="Micro"/>
+
+            <Label Text="Q: Will I need to bring along any money?" 
+                   FontSize="Small"
+                   FontAttributes="Bold"/>
+            <Label Text="A: You can bring money to visit the bookstore, buy a snack, or purchase a drink. You will not need money for
+any of the activities or events that PASC offers that week and all meals are included in the cost of registration."
+                   FontSize="Micro"/>
+
+            <Label Text="Q: What are items some kids forget and that I should double check for?" 
+                   FontSize="Small"
+                   FontAttributes="Bold"/>
+            <Label Text="A: Please make sure you have BOTH the completed medical form and Black Rock Release form, snacks and
+drinks, twin xl sheets, towels, medicine, showering and personal care items, a phone charger, refillable water
+bottle, umbrella, sneakers, banquet attire, pjs, and plenty of comfy and school appropriate clothes for a week
+of fun and learning! "
+                   FontSize="Micro"/>
+            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

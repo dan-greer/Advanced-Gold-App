@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdvGold2018.WelcomePage"
+             Title ="Welcome!">
+    <ContentPage.Content>
+        <StackLayout
+            Spacing="0">
+            <Label Text="Advanced Gold 2018"
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Large"
+                Margin="2"/>
+            <Label Text="Alvernia University"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Small"
+                   Margin="0"/>
+            <Label Text="July 15-21"
+                   HorizontalOptions="CenterAndExpand"
+                   Margin="2"/>
+            <Image Source="alvernia.jpg"
+                   HeightRequest="125"/>
+            <Label Text="Welcome to Advanced Gold 2018, where we hope to get you Fired Up About Leadership!"
+                   HorizontalOptions="CenterAndExpand"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Small"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

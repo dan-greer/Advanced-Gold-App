@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdvGold2018.StaffPage"
+             Title="Staff Directory">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+                    
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                
+                <Label Text="Madison Dietz" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="mbd002@lvc.edu" Grid.Row="0" Grid.Column="1" FontSize="Small"/>
+                <BoxView Color="Black" HeightRequest="1" Grid.Row="1" Grid.ColumnSpan="2"/>
+
+                <Label Text="Jimmy Dooling" Grid.Row="2" Grid.Column="0"/>
+                <Label Text="jdooling.home@gmail.com" Grid.Row="2" Grid.Column="1" FontSize="Small"/>
+                <BoxView Color="Black" HeightRequest="1" Grid.Row="3" Grid.ColumnSpan="2"/>
+
+                <Label Text="Dan Greer" Grid.Row="4" Grid.Column="0"/>
+                <Label Text="dangreer97@gmail.com" Grid.Row="4" Grid.Column="1" FontSize="Small"/>
+                <BoxView Color="Black" HeightRequest="1" Grid.Row="5" Grid.ColumnSpan="2"/>
+
+                <Label Text="Shannon Holley" Grid.Row="6" Grid.Column="0"/>
+                <Label Text="shannon.holley@hotmail.com" Grid.Row="6" Grid.Column="1" FontSize="Small"/>
+                <BoxView Color="Black" HeightRequest="1" Grid.Row="7" Grid.ColumnSpan="2"/>
+
+                <Label Text="Kelsey Kuzniewski" Grid.Row="8" Grid.Column="0"/>
+                <Label Text="kkuzniewski001@student.franciscan.edu" Grid.Row="8" Grid.Column="1" FontSize="Small"/>
+                <BoxView Color="Black" HeightRequest="1" Grid.Row="9" Grid.ColumnSpan="2"/>
+
+                <Label Text="Chelsea Lasky" Grid.Row="10" Grid.Column="0"/>
+                <Label Text="lasky.chelsea@gmail.com" Grid.Row="10" Grid.Column="1" FontSize="Small"/>
+                <BoxView Color="Black" HeightRequest="1" Grid.Row="11" Grid.ColumnSpan="2"/>
+
+                <Label Text="Megan Paonessa" Grid.Row="12" Grid.Column="0"/>
+                <Label Text="meganpaonessa@gmail.com" Grid.Row="12" Grid.Column="1" FontSize="Small"/>
+                <BoxView Color="Black" HeightRequest="1" Grid.Row="13" Grid.ColumnSpan="2"/>
+
+                <Label Text="Erin Rebling" Grid.Row="14" Grid.Column="0"/>
+                <Label Text="erin.rebling@gmail.com" Grid.Row="14" Grid.Column="1" FontSize="Small"/>
+                <BoxView Color="Black" HeightRequest="1" Grid.Row="15" Grid.ColumnSpan="2"/>
+
+                <Label Text="Lucy Thornton" Grid.Row="16" Grid.Column="0"/>
+                <Label Text="lucyjanethornton@gmail.com" Grid.Row="16" Grid.Column="1" FontSize="Small"/>
+                <BoxView Color="Black" HeightRequest="1" Grid.Row="17" Grid.ColumnSpan="2"/>
+
+                <Label Text="Felix Yerace" Grid.Row="18" Grid.Column="0"/>
+                <Label Text="aed@pasc.net" Grid.Row="18" Grid.Column="1" FontSize="Small"/>
+                <BoxView Color="Black" HeightRequest="1" Grid.Row="19" Grid.ColumnSpan="2"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AdvGold2018.EmergencyPage"
+             Title="Emergency">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Alvernia University Public Safety"
+                   HorizontalOptions="CenterAndExpand" 
+                   FontSize="Medium"/>
+            <Label Text="610-796-8250"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Small"/>
+            <BoxView Color="Black"
+                     HeightRequest="1"/>
+            
+            <Label Text="Alvernia Information Desk"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Medium"/>
+            <Label Text="610-796-8251"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Small"/>
+            <BoxView Color="Black"
+                     HeightRequest="1"/>
+            
+            <Label Text="Poison Control Center"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Medium"/>
+            <Label Text="800-222-1222"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Small"/>
+            <BoxView Color="Black"
+                     HeightRequest="1"/>
+            
+            <Label Text="Felix Yerace"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Medium"/>
+            <Label Text="412-956-5554"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Small"/>
+            <BoxView Color="Black"
+                     HeightRequest="1"/>
+            
+            <Label Text="Shannon Holley"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Medium"/>
+            <Label Text="412-398-6535"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Small"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

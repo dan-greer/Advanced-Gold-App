@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AdvGold2018"
+             x:Class="AdvGold2018.MasterPage"
+             Padding="0,30,0,0"
+             Title="MENU">
+    <StackLayout>
+        <FlexLayout
+            Direction="Row">
+            <Image Source="pasc.jpg"
+                   Aspect="AspectFit"
+                   FlexLayout.AlignSelf="Start"
+                   HeightRequest="42"/>
+            <StackLayout
+                FlexLayout.AlignSelf="Auto"
+                Margin="5"
+                Spacing="2">
+                <Label Text="Advanced Gold 2018"
+                       FontSize="Small"
+                       TextColor="Black"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="End"
+                       VerticalOptions="Center"
+                 />
+                <Label Text="July 15-21"
+                       FontSize="Micro"
+                       TextColor="Black"
+                       HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            
+        </FlexLayout>
+
+        <ListView x:Name="listView" x:FieldModifier="public"
+                  BackgroundColor="White">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type local:MasterPageItem}">
+                    <local:MasterPageItem Title="Welcome" IconSource="welcome.jpg" TargetType="{x:Type local:WelcomePage}" />
+                    <local:MasterPageItem Title="Schedule" IconSource="schedule.png" TargetType="{x:Type local:SchedulePage}" />
+                    <local:MasterPageItem Title="Notes" IconSource="notes.png" TargetType="{x:Type local:NotesPage}" />
+                    <local:MasterPageItem Title="Staff" IconSource="staff.png" TargetType="{x:Type local:StaffPage}" />
+                    <local:MasterPageItem Title="Maps" IconSource="map.png" TargetType="{x:Type local:MapPage}" />
+                    <local:MasterPageItem Title="Twitter" IconSource="twitter.png" TargetType="{x:Type local:TwitterPage}" />
+                    <local:MasterPageItem Title="Instagram" IconSource="insta.jpg" TargetType="{x:Type local:InstaPage}" />
+                    <local:MasterPageItem Title="Facebook" IconSource="facebook.png" TargetType="{x:Type local:FacebookPage}" />
+                    <local:MasterPageItem Title="Emergency" IconSource="emergency.png" TargetType="{x:Type local:EmergencyPage}" />
+                    <local:MasterPageItem Title="Info" IconSource="info.png" TargetType="{x:Type local:InfoPage}" />
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="5,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding IconSource}" />
+                            <Label Grid.Column="1" Text="{Binding Title}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
