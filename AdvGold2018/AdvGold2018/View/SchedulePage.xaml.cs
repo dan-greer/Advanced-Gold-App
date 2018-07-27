@@ -16,6 +16,7 @@ namespace AdvGold2018
         {
             InitializeComponent();
 
+            // Determines which page to open up to based on the current date
             switch (int.Parse(DateTime.Now.Day.ToString()))
             {
 
